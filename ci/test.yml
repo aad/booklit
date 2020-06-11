@@ -3,7 +3,7 @@ platform: linux
 
 image_resource:
   type: registry-image
-  source: {repository: paasmule/paas-tools-go}
+  source: {repository: ubuntu, tag: xenial}
 
 inputs:
 - name: booklit
